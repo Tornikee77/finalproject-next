@@ -4,6 +4,9 @@
   --background: #ffffff;
   --foreground: #171717;
   --seconadry-color: #c3dce3;
+  --text-colot: #2b788b;
+  --color-black: #000000;
+  --color-paragraph: #757575;
 }
 
 @theme inline {

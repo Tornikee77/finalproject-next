@@ -1,10 +1,12 @@
+import Hero from "@/features/Hero/Hero";
+import Home from "@/features/Home/Home";
 import React from "react";
-import Home from "./features/Home/Home";
 
 const page = () => {
   return (
     <div>
       <Home />
+      <Hero />
     </div>
   );
 };
