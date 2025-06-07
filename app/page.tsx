@@ -5,9 +5,11 @@ import React from "react";
 
 const page = () => {
   return (
-    <div>
-      <Home />
-      <Hero />
+    <div className="min-h-screen flex flex-col">
+      <main className="flex-grow">
+        <Home />
+        <Hero />
+      </main>
       <Footer />
     </div>
   );
