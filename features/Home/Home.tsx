@@ -2,14 +2,15 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import { motion } from "motion/react";
-import { div } from "motion/react-client";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [clicked, setClicked] = useState(false);
+
   const handleDropdownToggle = () => {
     setIsOpen(!isOpen);
   };
+
   const burgerToggle = () => {
     setClicked((prev) => !prev);
   };
@@ -64,9 +65,10 @@ const Home = () => {
         </div>
       </header>
       <motion.div
+        initial={{ y: "-100%" }}
         animate={clicked ? { y: 0 } : { y: "-100%" }}
         transition={{ duration: 0.5 }}
-        className="z-10 absolute flex justify-center items-center bg-red-700 w-full h-dvh"
+        className="z-10 absolute flex justify-center items-center bg-[var(--background)] w-full h-dvh"
       >
         <ul>
           <li>Main</li>
