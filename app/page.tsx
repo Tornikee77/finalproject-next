@@ -2,6 +2,8 @@ import Footer from "@/features/Footer/Footer";
 import Hero from "@/features/Hero/Hero";
 import Home from "@/features/Home/Home";
 import LearningLang from "@/features/LearnLang/LearningLang";
+import IncreVocabulary from "@/features/Vocabulary/IncreVocabulary";
+import WatchProgres from "@/features/WatchProgres/WatchProgres";
 import React from "react";
 
 const page = () => {
@@ -11,6 +13,8 @@ const page = () => {
         <Home />
         <Hero />
         <LearningLang />
+        <IncreVocabulary />
+        <WatchProgres />
       </main>
       <Footer />
     </div>

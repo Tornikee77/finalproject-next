@@ -17,7 +17,7 @@ const Home = () => {
 
   return (
     <div>
-      <header className="z-20 relative flex justify-center items-center bg-white mx-auto w-full">
+      <header className="z-20 relative flex justify-center items-center bg-white mx-auto max-w-[335px]">
         <div className="flex justify-between w-full max-w-[375px]">
           {clicked ? (
             <div onClick={burgerToggle}>
@@ -70,12 +70,12 @@ const Home = () => {
         transition={{ duration: 0.5 }}
         className="z-10 absolute flex justify-center items-center bg-[var(--background)] w-full h-dvh"
       >
-        <ul>
-          <li>Main</li>
-          <li>TextBook</li>
-          <li>Statistics</li>
-          <li>Sprint</li>
-          <li>Audio-call</li>
+        <ul className="flex flex-col text-center cursor-pointer">
+          <li className="text-[var(--color-paragraph)]">Main</li>
+          <li className="text-[var(--color-paragraph)]">TextBook</li>
+          <li className="text-[var(--color-paragraph)]">Statistics</li>
+          <li className="text-[var(--color-paragraph)]">Sprint</li>
+          <li className="text-[var(--color-paragraph)]">Audio-call</li>
         </ul>
       </motion.div>
     </div>

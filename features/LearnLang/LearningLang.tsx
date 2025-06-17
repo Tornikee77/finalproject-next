@@ -8,10 +8,10 @@ const LearningLang = () => {
         <h3 className="mt-2 max-w-[335px] font-[900] text-[24px] text-[var(--color-black)] text-center leading-[100%]">
           Learn a language in a playful way
         </h3>
-        <p className="mt-3 mb-5 text-[var(--color-paragraph)]">
+        <p className="mt-3 mb-5 text-[var(--color-paragraph)] flex- text-center  font-[600]">
           Make learning words more fun with mini-games
         </p>
-        <div className="flex gap-[30px] mx-auto justify-center  mt-[50px] ">
+        <div className="flex gap-[30px] mx-auto justify-center  mt-[50px] mb-10 ">
           <div className="pinkShoesCont w-[114px] h-[112px] rounded-2xl bg-[var(--color-PinkshoeCont)] ">
             <div className="relative">
               <Image

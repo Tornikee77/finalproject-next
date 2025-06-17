@@ -4,14 +4,14 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col justify-center items-center bg-white mx-auto w-full">
+    <div className="flex flex-col justify-center items-center bg-[var(--color-prymary)] mx-auto max-w-[335px]">
       <p className="font-[700] text-[12px] text-[var(--text-colot)]">
         E-COURSE PLATFORM
       </p>
       <h3 className="mt-2 max-w-[300px] font-[900] text-[32px] text-[var(--color-black)] text-center leading-[100%]">
         Learning and teaching online, made easy.
       </h3>
-      <p className="mt-3 mb-5 text-[var(--color-paragraph)]">
+      <p className="mt-3 mb-5 text-[var(--color-paragraph)] flex text-center font-[600]">
         Practice and learn new things with the platform.
       </p>
       <div>
