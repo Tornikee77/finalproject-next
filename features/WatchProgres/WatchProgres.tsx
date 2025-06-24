@@ -3,8 +3,8 @@ import Button from "../organisms/Button";
 
 const WatchProgres = () => {
   return (
-    <div className="flex flex-col  items-center mx-auto w-[335px]">
-      <div className="flex justify-center mx-auto mt-5">
+    <div className=" md:flex flex-col  items-center mx-auto w-[335px]">
+      <div className="flex justify-center mx-auto mt-5 ">
         <Image
           src="/watchProgres.png"
           width={335}
